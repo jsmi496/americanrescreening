@@ -33,8 +33,6 @@ export const NAV = [
     children: [
       ['Door Replacement', '/door-replacement/'],
       ['Doggy Door Installation', '/doggy-door-installation-in-spring-hill/'],
-      ['Hurricane Cables', '/hurricane-cable-installation/'],
-      ['Small Home Repairs', '/small-home-repairs/'],
     ],
   },
   { label: 'Blog', href: '/blog/' },
@@ -173,8 +171,6 @@ ${body}
         <li><a href="/super-screen-installation/">Super Screen Installation</a></li>
         <li><a href="/pet-screen-installation/">Pet Screen Installation</a></li>
         <li><a href="/door-replacement/">Door Replacement</a></li>
-        <li><a href="/hurricane-cable-installation/">Hurricane Cables</a></li>
-        <li><a href="/small-home-repairs/">Small Home Repairs</a></li>
       </ul>
     </div>
     <div class="footer-col">

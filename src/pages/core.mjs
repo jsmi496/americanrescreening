@@ -14,15 +14,12 @@ const ICONS = {
 const chip = (name) => `<div class="icon-chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ICONS[name]}"/></svg></div>`;
 
 const SERVICES = [
-  ['pool', 'Pool Rescreening', '/services/rescreening/', 'Full rescreens of pool enclosures with premium Phifer screening — clearer views, better airflow, and no more bugs.'],
-  ['screen', 'Patio, Lanai & Porch Rescreening', '/services/rescreening/', 'Bring worn patio, lanai, and porch screens back to life so every outdoor space is comfortable year-round.'],
+  ['pool', 'Pool, Patio & Lanai Rescreening', '/services/rescreening/', 'Full rescreens with premium Phifer screening — clearer views, better airflow, and no more bugs, from pool cages to porches.'],
   ['panel', 'Individual Panel Replacement', '/services/screen-repairs/', 'One torn panel doesn’t need a full rescreen. We match and replace individual panels quickly and affordably.'],
   ['privacy', 'Florida Glass Installation', '/florida-glass-installation-in-spring-hill/', 'Laminated privacy screen that blocks prying eyes, wind-blown debris, and water spray — while light still comes through.'],
   ['shield', 'Super Screen Installation', '/super-screen-installation/', 'Heavy-duty, tear-resistant mesh with a tighter weave for better shade, longer life, and fewer no-see-ums.'],
   ['paw', 'Pet Screens & Doggy Doors', '/pet-screen-installation/', 'Claw-resistant pet screening and pet door installation so your screens and your pets can finally get along.'],
   ['door', 'Door Replacement', '/door-replacement/', 'New screen and entry doors that improve security, curb appeal, and energy efficiency.'],
-  ['cable', 'Hurricane Cable Installation', '/hurricane-cable-installation/', 'Reinforce your screen enclosure against Florida storms with professionally installed hurricane cables.'],
-  ['wrench', 'Small Home Repairs', '/small-home-repairs/', 'The handyman list you’ve been putting off — done right by the same crew you already trust with your enclosure.'],
 ];
 
 const TESTIMONIALS = [
