@@ -57,19 +57,34 @@ export const home = {
   body: `
 <section class="hero">
   <div class="container">
-    <h1>Spring Hill&rsquo;s Trusted Pool &amp; Patio Screen Company</h1>
-    <p class="lede">From full pool cage rescreens to a single torn panel, American Rescreening has kept Spring Hill homes bug-free and beautiful for over 23 years. Licensed, insured, and locally owned.</p>
-    <div class="hero-actions">
-      <a class="btn btn-red" href="/contact/">Get a Free Quote</a>
-      <a class="btn btn-outline-white" href="${SITE.phoneHref}">Call ${SITE.phone}</a>
-    </div>
-    <div class="hero-badges">
-      <span><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.3 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"/></svg>23+ Years of Experience</span>
-      <span><svg viewBox="0 0 24 24"><path d="M12 2l8 3.5v5.6c0 5-3.4 9.5-8 10.9-4.6-1.4-8-5.9-8-10.9V5.5z"/></svg>Licensed &amp; Insured</span>
-      <span><svg viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-4v-6H10v6H6v-9H3z"/></svg>Locally Owned &amp; Operated</span>
+    <div class="hero-grid">
+      <div>
+        <p class="kicker">Spring Hill, Florida</p>
+        <h1>Screens That <span class="grad">Outlast</span> the Florida Sun</h1>
+        <p class="lede">From full pool cage rescreens to a single torn panel, American Rescreening has kept Spring Hill homes bug-free and beautiful for over 23 years. Licensed, insured, and locally owned.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="${SITE.phoneHref}">Call ${SITE.phone}</a>
+          <a class="btn btn-outline-white" href="/services/rescreening/">Explore Services</a>
+        </div>
+        <div class="hero-badges">
+          <span><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.3 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"/></svg>23+ Years of Experience</span>
+          <span><svg viewBox="0 0 24 24"><path d="M12 2l8 3.5v5.6c0 5-3.4 9.5-8 10.9-4.6-1.4-8-5.9-8-10.9V5.5z"/></svg>Licensed &amp; Insured</span>
+          <span><svg viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-4v-6H10v6H6v-9H3z"/></svg>Locally Owned &amp; Operated</span>
+        </div>
+      </div>
+      ${quoteForm('quote', 'Request a Free Quote')}
     </div>
   </div>
 </section>
+
+<div class="stats">
+  <div class="container stats-inner">
+    <div class="stat"><b>23+</b><span>Years in Business</span></div>
+    <div class="stat"><b>5.0 ★</b><span>Customer Rating</span></div>
+    <div class="stat"><b>1000s</b><span>Enclosures Rescreened</span></div>
+    <div class="stat"><b>100%</b><span>Licensed &amp; Insured</span></div>
+  </div>
+</div>
 
 <section class="section-cream">
   <div class="container">
@@ -132,18 +147,7 @@ export const home = {
   </div>
 </section>
 
-<section class="section-navy">
-  <div class="container split">
-    <div>
-      <p class="kicker">Free Estimates</p>
-      <h2>Request Your Free Quote</h2>
-      <p>Tell us what&rsquo;s going on with your enclosure, doors, or screens and we&rsquo;ll get back to you within one business day with an honest assessment and a fair price.</p>
-      <p>Prefer the phone? We answer Monday through Friday, 6:00 AM to 6:00 PM.</p>
-      <p style="font-size:1.3rem"><a style="color:#fff;font-weight:700" href="${SITE.phoneHref}">${SITE.phone}</a></p>
-    </div>
-    ${quoteForm('quote')}
-  </div>
-</section>
+${ctaBand('Ready to enjoy your outdoor space again?')}
 
 %%BLOG_PREVIEW%%
 `,
@@ -154,7 +158,7 @@ export const about = {
   title: 'About Us | Screen Company in Spring Hill, FL | American Rescreening',
   metaDesc: 'American Rescreening is a locally owned, licensed & insured screen company serving Spring Hill, FL for over 23 years. Meet the team behind the area’s trusted pool enclosure and rescreening service.',
   body: `
-<section class="page-hero" style="background-image:linear-gradient(rgba(26,23,58,.72),rgba(26,23,58,.72)),url('/assets/images/pool-screen-in-florida.jpg')">
+<section class="page-hero" style="background-image:url('/assets/images/pool-screen-in-florida.jpg')">
   <div class="container">
     <h1>Your Local Screen Experts Since Day One</h1>
     <p>Over 23 years of rescreening, repairing, and protecting outdoor spaces across Spring Hill, Florida.</p>

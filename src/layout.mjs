@@ -57,9 +57,10 @@ function navItem(item, currentPath) {
   </li>`;
 }
 
-export function quoteForm(id = 'quote') {
+export function quoteForm(id = 'quote', heading = '') {
   return `
   <form class="quote-form" id="${id}" name="Quote Request" method="post" action="#${id}" onsubmit="this.classList.add('sent');return false;">
+    ${heading ? `<p class="form-title">${heading}</p><p class="form-sub">Free estimate · No obligation · We reply within one business day</p>` : ''}
     <div class="form-grid">
       <label>Full Name<input type="text" name="name" placeholder="Full name" autocomplete="name" required></label>
       <label>Phone<input type="tel" name="phone" placeholder="(352) 555-0100" autocomplete="tel" required></label>
@@ -97,7 +98,7 @@ export function faq(items) {
 
 export function serviceHero(title, lede, img) {
   return `
-  <section class="page-hero"${img ? ` style="background-image:linear-gradient(rgba(26,23,58,.72),rgba(26,23,58,.72)),url('/assets/images/${img}')"` : ''}>
+  <section class="page-hero"${img ? ` style="background-image:url('/assets/images/${img}')"` : ''}>
     <div class="container">
       <h1>${title}</h1>
       <p>${lede}</p>
@@ -127,7 +128,7 @@ export function page({ title, metaDesc, path, body, ogImage }) {
 <link rel="icon" href="/assets/images/cropped-ar-192x192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
@@ -139,9 +140,10 @@ export function page({ title, metaDesc, path, body, ogImage }) {
     <span>${SITE.hours}</span>
   </div>
 </div>
+<div class="stripes" aria-hidden="true"></div>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="/"><img src="/assets/images/0_0.png" alt="American Rescreening LLC" width="214" height="80"></a>
+    <a class="wordmark" href="/" aria-label="American Rescreening LLC — Home"><span class="star" aria-hidden="true">★</span><span>American <span class="rs">Rescreening</span><small>Spring Hill · FL</small></span></a>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))"><span></span><span></span><span></span></button>
     <nav class="site-nav" aria-label="Main">
       <ul>
@@ -156,7 +158,7 @@ ${body}
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-col">
-      <img class="footer-logo" src="/assets/images/0_0.png" alt="American Rescreening LLC" width="180" height="68">
+      <a class="wordmark" href="/"><span class="star" aria-hidden="true">★</span><span>American <span class="rs">Rescreening</span><small>Spring Hill, Florida</small></span></a>
       <p>Locally owned and operated screen company serving Spring Hill, FL and surrounding communities for over 23 years. Licensed &amp; insured.</p>
       <div class="socials">
         ${SITE.socials.map(([label, href, d]) => `<a href="${href}" aria-label="${label}" target="_blank" rel="noopener">${icon(d)}</a>`).join('')}
