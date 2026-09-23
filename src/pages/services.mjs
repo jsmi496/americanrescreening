@@ -249,7 +249,7 @@ ${serviceHero('Pet Screen Installation in Spring Hill, FL', 'Has your dog torn t
 
 <section class="section-cream">
   <div class="container split rev">
-    <img src="/assets/images/5-reasons-why-you-should-install-a-pet-door-at-home.jpg" alt="Dog using a pet door installed in a screen door" loading="lazy">
+    <img src="/assets/images/pexels-heino-schliep-15866678.jpg" alt="Dog waiting at the door — a doggy door ends the doorman routine" loading="lazy">
     <div>
       <p class="kicker">The Companion Fix</p>
       <h2>Add a Doggy Door, Save Your Screens</h2>
@@ -386,9 +386,9 @@ export const doggyDoor = {
   path: '/doggy-door-installation-in-spring-hill/',
   title: 'Doggy Door Installation in Spring Hill, FL | American Rescreening',
   metaDesc: 'Professional doggy door installation in Spring Hill, FL — screen doors, entry doors, and sliders. Give your pet freedom and save your screens. Free quotes — (352) 587-3719.',
-  ogImage: '5-reasons-why-you-should-install-a-pet-door-at-home.jpg',
+  ogImage: 'pexels-heino-schliep-15866678.jpg',
   body: `
-${serviceHero('Doggy Door Installation in Spring Hill, FL', 'Stop being the doorman. A properly installed pet door gives your dog freedom, ends the scratching and barking at the door, and — bonus — saves your screens.', '5-reasons-why-you-should-install-a-pet-door-at-home.jpg')}
+${serviceHero('Doggy Door Installation in Spring Hill, FL', 'Stop being the doorman. A properly installed pet door gives your dog freedom, ends the scratching and barking at the door, and — bonus — saves your screens.', 'pexels-heino-schliep-15866678.jpg')}
 
 <section>
   <div class="container split">
@@ -404,7 +404,7 @@ ${serviceHero('Doggy Door Installation in Spring Hill, FL', 'Stop being the door
       <p>Pet doors come in small through extra-large — small sizes work great for cats — with options like locking panels, weatherproof flaps, and microchip-activated access for extra security.</p>
       <a class="btn btn-red" href="/contact/">Get an Installation Quote</a>
     </div>
-    <img src="/assets/images/5-reasons-why-you-should-install-a-pet-door-at-home.jpg" alt="Dog using a newly installed doggy door" loading="lazy">
+    <img src="/assets/images/pexels-heino-schliep-15866678.jpg" alt="Dog sitting at the door, waiting to be let out" loading="lazy">
   </div>
 </section>
 
