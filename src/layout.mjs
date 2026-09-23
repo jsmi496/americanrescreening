@@ -20,14 +20,14 @@ export const NAV = [
   { label: 'About', href: '/about/' },
   { label: 'Rescreening', href: '/services/rescreening/' },
   {
-    label: 'Florida Glass/Super-shade Screen', href: '/services/screen-replacements/',
+    label: 'Specialty Screens', href: '/services/screen-replacements/',
     children: [
       ['Florida Glass Installation', '/florida-glass-installation-in-spring-hill/'],
       ['Pet Screen Installation', '/pet-screen-installation/'],
       ['Super Screen Installation', '/super-screen-installation/'],
     ],
   },
-  { label: 'Individual Panel Replacement', href: '/services/screen-repairs/' },
+  { label: 'Panel Replacement', href: '/services/screen-repairs/' },
   {
     label: 'Other Services', href: null,
     children: [
