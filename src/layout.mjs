@@ -1,6 +1,6 @@
 // Shared layout: page shell, header, footer, reusable sections.
 export const SITE = {
-  name: 'American Rescreening LLC',
+  name: 'American Rescreen LLC',
   domain: 'https://american-rescreening.com',
   phone: '(352) 587-3719',
   phoneHref: 'tel:+13525873719',
@@ -33,6 +33,7 @@ export const NAV = [
     children: [
       ['Door Replacement', '/door-replacement/'],
       ['Doggy Door Installation', '/doggy-door-installation-in-spring-hill/'],
+      ['Pool Cage Painting', '/pool-cage-painting/'],
     ],
   },
   { label: 'Blog', href: '/blog/' },
@@ -78,7 +79,7 @@ export function ctaBand(heading = 'Ready to enjoy your outdoor space again?') {
     <div class="container cta-inner">
       <div>
         <h2>${heading}</h2>
-        <p>Free estimates · Licensed &amp; insured · Serving Spring Hill and surrounding communities</p>
+        <p>Free estimates · Licensed &amp; insured · Serving Spring Hill and the surrounding counties</p>
       </div>
       <div class="cta-actions">
         <a class="btn btn-white" href="${SITE.phoneHref}">Call ${SITE.phone}</a>
@@ -123,7 +124,7 @@ export function page({ title, metaDesc, path, body, ogImage }) {
 <meta property="og:type" content="website">
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${SITE.domain}/assets/images/${ogImage || 'pool-screens-in-florida.jpg'}">
-<link rel="icon" href="/assets/images/cropped-ar-192x192.png">
+<link rel="icon" href="/assets/images/logo-badge-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -141,7 +142,7 @@ export function page({ title, metaDesc, path, body, ogImage }) {
 <div class="stripes" aria-hidden="true"></div>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="wordmark" href="/" aria-label="American Rescreening LLC — Home"><span class="star" aria-hidden="true">★</span><span>American <span class="rs">Rescreening</span><small>Spring Hill · FL</small></span></a>
+    <a class="wordmark" href="/" aria-label="American Rescreen LLC — Home"><img class="badge" src="/assets/images/logo-badge.png" alt="" width="52" height="52"><span>American <span class="rs">Rescreen</span><small>Screen Repair Service</small></span></a>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))"><span></span><span></span><span></span></button>
     <nav class="site-nav" aria-label="Main">
       <ul>
@@ -156,8 +157,8 @@ ${body}
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-col">
-      <a class="wordmark" href="/"><span class="star" aria-hidden="true">★</span><span>American <span class="rs">Rescreening</span><small>Spring Hill, Florida</small></span></a>
-      <p>Locally owned and operated screen company serving Spring Hill, FL and surrounding communities for over 23 years. Licensed &amp; insured.</p>
+      <a class="wordmark" href="/"><img class="badge" src="/assets/images/logo-badge.png" alt="" width="64" height="64"><span>American <span class="rs">Rescreen</span><small>Spring Hill, Florida</small></span></a>
+      <p>Locally owned and operated screen company serving Spring Hill and the surrounding counties for over 23 years. Licensed &amp; insured.</p>
       <div class="socials">
         ${SITE.socials.map(([label, href, d]) => `<a href="${href}" aria-label="${label}" target="_blank" rel="noopener">${icon(d)}</a>`).join('')}
       </div>
@@ -171,6 +172,7 @@ ${body}
         <li><a href="/super-screen-installation/">Super Screen Installation</a></li>
         <li><a href="/pet-screen-installation/">Pet Screen Installation</a></li>
         <li><a href="/door-replacement/">Door Replacement</a></li>
+        <li><a href="/pool-cage-painting/">Pool Cage Painting</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -191,7 +193,7 @@ ${body}
     </div>
   </div>
   <div class="footer-bottom">
-    <div class="container">© ${new Date().getFullYear()} American Rescreening LLC. All rights reserved.</div>
+    <div class="container">© ${new Date().getFullYear()} American Rescreen LLC. All rights reserved.</div>
   </div>
 </footer>
 </body>

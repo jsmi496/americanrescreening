@@ -20,7 +20,7 @@ const stdProcess = process4([
 
 export const rescreening = {
   path: '/services/rescreening/',
-  title: 'Pool & Patio Rescreening in Spring Hill, FL | American Rescreening',
+  title: 'Pool & Patio Rescreening in Spring Hill, FL | American Rescreen',
   metaDesc: 'Professional rescreening for pool enclosures, patios, lanais, and porches in Spring Hill, FL. Premium Phifer materials, free inspections, warranty-backed work. Call (352) 587-3719.',
   ogImage: 'pool-rescreening-fl.jpg',
   body: `
@@ -38,7 +38,7 @@ ${serviceHero('Outdoor Rescreening in Spring Hill, FL', 'Florida sun, storms, an
         <li><strong>Porch rescreening</strong> — durable, great-looking screens that keep your porch usable year-round.</li>
         <li><strong>Screen repair</strong> — minor damage doesn’t always need a full rescreen. We fix what can be fixed.</li>
       </ul>
-      <p>Every job uses premium screening — including Phifer products — in your choice of mesh types, from standard fiberglass to no-see-um, pet, privacy, and super screen.</p>
+      <p>Every job uses premium screening from Phifer and Super Screen — including heavy-duty HD mesh — in your choice of types: standard fiberglass, 20/20 no-see-um, pet screen, Florida Glass privacy, Super Screen, and Super Solar.</p>
     </div>
     <img src="/assets/images/pool-rescreening-in-fl.jpg" alt="Pool enclosure being rescreened in Spring Hill, FL" loading="lazy">
   </div>
@@ -63,7 +63,7 @@ ${stdProcess}
     ${faq([
       ['How much does rescreening cost?', 'It depends on the size of the enclosure and the screen type you choose. Panel repairs start small; full pool cage rescreens vary with square footage. Contact us for a free, no-obligation quote — we’ll give you an honest number.'],
       ['How long does rescreening take?', 'Most individual repairs are done in under a day. Full pool enclosure rescreens typically take one to a few days depending on size and weather.'],
-      ['What types of screen do you offer?', 'Standard fiberglass, no-see-um (20/20) mesh, pet screen, Florida Glass privacy screen, and heavy-duty super screen — we’ll help you pick the right one for each area.'],
+      ['What types of screen do you offer?', 'Standard fiberglass, 20/20 no-see-um mesh, pet screen, Florida Glass privacy screen, heavy-duty Super Screen and HD screen, and sun-blocking Super Solar screen — we’ll help you pick the right one for each area.'],
       ['Do you provide a warranty?', 'Yes. All of our rescreening work is warranty-backed. If a problem shows up, we come back and fix it.'],
       ['Can you repair my existing screens instead of replacing everything?', 'Absolutely. If only a panel or two is damaged, we’ll tell you — individual panel replacement is one of our most popular services.'],
     ])}
@@ -76,11 +76,11 @@ ${ctaBand('Ready to rescreen? Get your free inspection.')}
 
 export const screenReplacements = {
   path: '/services/screen-replacements/',
-  title: 'Florida Glass & Super-shade Screen in Spring Hill, FL | American Rescreening',
-  metaDesc: 'Privacy and specialty screen options in Spring Hill, FL: Florida Glass, super-shade screen, pet screen, and no-see-um mesh. 23+ years of experience. Free quotes — (352) 587-3719.',
+  title: 'Florida Glass & Specialty Screens in Spring Hill, FL | American Rescreen',
+  metaDesc: 'Specialty screen options in Spring Hill, FL: Florida Glass privacy screen, heavy-duty Super Screen and HD mesh, sun-blocking Super Solar, pet screen, and 20/20 no-see-um. Free quotes — (352) 587-3719.',
   ogImage: 'screen-replacements.jpg',
   body: `
-${serviceHero('Florida Glass &amp; Super-shade Screen', 'Tired of prying eyes on your pool or patio? We install specialty screens that add privacy, shade, and durability — without giving up light and airflow.', 'screen-replacements.jpg')}
+${serviceHero('Florida Glass &amp; Specialty Screens', 'Tired of prying eyes on your pool or patio? Or screens that keep tearing? We install specialty screens for privacy, durability, sun protection, and pests — without giving up light and airflow.', 'screen-replacements.jpg')}
 
 <section>
   <div class="container split">
@@ -90,7 +90,8 @@ ${serviceHero('Florida Glass &amp; Super-shade Screen', 'Tired of prying eyes on
       <p>Standard screening keeps bugs out — but it can’t do everything. Depending on what you need, we offer specialty options that solve specific problems:</p>
       <ul class="checks">
         <li><strong><a href="/florida-glass-installation-in-spring-hill/">Florida Glass</a></strong> — vinyl-laminated privacy screen that blocks sightlines, wind, and water spray. Perfect for pool enclosure lower panels.</li>
-        <li><strong>Super-shade / <a href="/super-screen-installation/">Super Screen</a></strong> — heavy-duty polyester mesh with superior tear resistance, extra shade, and UV protection.</li>
+        <li><strong><a href="/super-screen-installation/">Super Screen &amp; HD screen</a></strong> — thicker, heavy-duty mesh with superior tear resistance for screens that keep failing.</li>
+        <li><strong>Super Solar screen</strong> — sun-blocking mesh that cuts heat and glare in your enclosure.</li>
         <li><strong><a href="/pet-screen-installation/">Pet screen</a></strong> — up to 7× stronger than standard mesh, built to survive claws and paws.</li>
         <li><strong>20/20 no-see-um screen</strong> — tighter weave that keeps out even the tiniest biting insects.</li>
       </ul>
@@ -106,7 +107,7 @@ ${serviceHero('Florida Glass &amp; Super-shade Screen', 'Tired of prying eyes on
     <div class="section-head center">
       <p class="kicker">Why We’re the Best at This</p>
       <h2>23+ Years. The Best Materials. Guaranteed.</h2>
-      <p>We’ve been installing specialty screens in Spring Hill for over two decades, and we only use materials we trust to last — including Phifer screening products. We want to be your screen company for the long haul, and that starts with doing this job right.</p>
+      <p>We’ve been installing specialty screens in Spring Hill for over two decades, and we only use materials we trust to last — from Phifer and Super Screen. We want to be your screen company for the long haul, and that starts with doing this job right.</p>
     </div>
     <div class="grid-3">
       ${testimonialCards()}
@@ -114,13 +115,13 @@ ${serviceHero('Florida Glass &amp; Super-shade Screen', 'Tired of prying eyes on
   </div>
 </section>
 
-${ctaBand('Want privacy and shade without losing the view?')}
+${ctaBand('Not sure which screen you need? Ask us.')}
 `,
 };
 
 export const screenRepairs = {
   path: '/services/screen-repairs/',
-  title: 'Individual Panel Replacement in Spring Hill, FL | American Rescreening',
+  title: 'Individual Panel Replacement in Spring Hill, FL | American Rescreen',
   metaDesc: 'One torn screen panel? No need for a full rescreen. Fast, affordable individual panel replacement for pool cages, lanais, and patios in Spring Hill, FL. Call (352) 587-3719.',
   ogImage: 'screen-panel-florida.jpg',
   body: `
@@ -165,7 +166,7 @@ ${ctaBand('Got a torn panel? We’ll make it disappear.')}
 
 export const floridaGlass = {
   path: '/florida-glass-installation-in-spring-hill/',
-  title: 'Florida Glass Installation in Spring Hill, FL | American Rescreening',
+  title: 'Florida Glass Installation in Spring Hill, FL | American Rescreen',
   metaDesc: 'Florida Glass (laminated privacy screen) installation in Spring Hill, FL. Privacy, weather protection, and style for pool enclosures, lanais, and patios. Free quotes — (352) 587-3719.',
   ogImage: 'pool-screens-in-florida.jpg',
   body: `
@@ -224,7 +225,7 @@ ${ctaBand('Ready for real privacy in your outdoor space?')}
 
 export const petScreen = {
   path: '/pet-screen-installation/',
-  title: 'Pet Screen Installation in Spring Hill, FL | American Rescreening',
+  title: 'Pet Screen Installation in Spring Hill, FL | American Rescreen',
   metaDesc: 'Claw-resistant pet screen installation in Spring Hill, FL — up to 7x stronger than standard mesh. Stop replacing torn screens; upgrade once. Free quotes — (352) 587-3719.',
   ogImage: 'screenpanels.jpg',
   body: `
@@ -277,43 +278,44 @@ ${ctaBand('Pets and screens can get along. We’ll prove it.')}
 
 export const superScreen = {
   path: '/super-screen-installation/',
-  title: 'Super Screen Installation in Spring Hill, FL | American Rescreening',
-  metaDesc: 'Super Screen installation in Spring Hill, FL — tear-resistant, longer-lasting mesh with better shade, UV protection, and no-see-um defense. Free quotes — (352) 587-3719.',
+  title: 'Super Screen & HD Screen Installation in Spring Hill, FL | American Rescreen',
+  metaDesc: 'Heavy-duty Super Screen and HD screen installation in Spring Hill, FL. Thicker, tear-resistant screening \u2014 with 20/20 no-see-um and sun-blocking Super Solar options. Free quotes \u2014 (352) 587-3719.',
   ogImage: 'pool-rescreening-fl.jpg',
   body: `
-${serviceHero('Super Screen Installation in Spring Hill, FL', 'When standard screening keeps failing, upgrade. Super Screen is next-generation mesh with superior strength, shade, and lifespan — made for the Florida outdoors.', 'pool-rescreening-fl.jpg')}
+${serviceHero('Super Screen Installation in Spring Hill, FL', 'When standard screening keeps failing, upgrade. Super Screen is a thicker, heavy-duty mesh built to take real abuse \u2014 pets, storm debris, and years of Florida weather.', 'pool-rescreening-fl.jpg')}
 
 <section>
   <div class="container split">
     <div>
       <p class="kicker">What Is Super Screen?</p>
-      <h2>Stronger Weave. Longer Life.</h2>
-      <p>Super Screen is engineered polyester mesh that outperforms traditional fiberglass in every category that matters in Florida: tear strength, impact resistance, UV stability, and insect protection. The denser weave keeps out no-see-ums that slip through standard mesh, and it carries a manufacturer warranty measured in decades, not years.</p>
+      <h2>Thicker Mesh. Serious Durability.</h2>
+      <p>Super Screen is a heavy-duty screening material that\u2019s substantially thicker and stronger than standard fiberglass mesh. It isn\u2019t a shade product \u2014 it\u2019s a durability product: screening that resists tears, punctures, and impacts that would shred ordinary mesh, backed by a long manufacturer warranty.</p>
+      <p>We install the full Super Screen family, and we\u2019ll match the right product to the job:</p>
       <ul class="checks">
-        <li><strong>Superior durability</strong> — resists tears, punctures, and storm-blown debris far better than standard screening.</li>
-        <li><strong>Better pest control</strong> — the tighter weave stops mosquitoes and no-see-ums.</li>
-        <li><strong>Sun protection</strong> — blocks a significant share of UV rays while keeping your view.</li>
-        <li><strong>Added privacy</strong> — a slightly denser look gives your enclosure more seclusion.</li>
+        <li><strong>Super Screen (standard)</strong> \u2014 the heavy-duty workhorse for enclosures that need to stand up to pets, debris, and time.</li>
+        <li><strong>HD screen by Super Screen</strong> \u2014 an even tougher mesh we install often; a favorite for high-wear enclosures.</li>
+        <li><strong>Super Screen 20/20</strong> \u2014 the fine-weave version that keeps out no-see-ums. (Standard Super Screen does not \u2014 if tiny biting insects are your problem, this is the one you want.)</li>
+        <li><strong>Super Solar screen</strong> \u2014 the sun-blocking member of the family, built to cut heat and glare in your enclosure.</li>
       </ul>
     </div>
-    <img src="/assets/images/pool-rescreening-fl.jpg" alt="Pool enclosure upgraded with Super Screen mesh" loading="lazy">
+    <img src="/assets/images/pool-rescreening-fl.jpg" alt="Pool enclosure upgraded with heavy-duty Super Screen mesh" loading="lazy">
   </div>
 </section>
 
 <section class="section-cream">
   <div class="container">
-    <div class="section-head center"><p class="kicker">Applications</p><h2>Where Super Screen Shines</h2></div>
+    <div class="section-head center"><p class="kicker">Why Upgrade</p><h2>Where Heavy-Duty Screening Pays Off</h2></div>
     <div class="grid-3">
-      <div class="card"><h3>Pool Enclosures</h3><p>Fewer bugs, less UV on swimmers, and screening that survives storm season after storm season.</p></div>
-      <div class="card"><h3>Lanais &amp; Patios</h3><p>A more comfortable, shaded outdoor room you can use at any hour.</p></div>
-      <div class="card"><h3>Porches &amp; Decks</h3><p>Shade, insect control, and a touch of privacy for the spaces where you actually live.</p></div>
+      <div class="card"><h3>Storm-Prone Enclosures</h3><p>Wind-blown debris that tears standard mesh often bounces off Super Screen \u2014 fewer post-storm repairs.</p></div>
+      <div class="card"><h3>Homes With Pets</h3><p>Thicker, tougher mesh shrugs off claws and paws that destroy ordinary screening.</p></div>
+      <div class="card"><h3>Tired of Rescreening</h3><p>If you\u2019ve replaced panels more than once, upgrading to Super Screen or HD resets the clock for far longer.</p></div>
     </div>
   </div>
 </section>
 
 ${process4([
-  ['Consultation & Quote', 'We assess your enclosure, explain your Super Screen options, and give you a clear price.'],
-  ['Screen Removal', 'Old mesh comes out carefully, and we check your frame while we’re at it.'],
+  ['Consultation & Quote', 'We assess your enclosure, explain which Super Screen product fits your situation, and give you a clear price.'],
+  ['Screen Removal', 'Old mesh comes out carefully, and we check your frame while we\u2019re at it.'],
   ['Frame Prep & Install', 'Minor frame adjustments as needed, then precise cutting and tensioned installation.'],
   ['Cleanup & Final Walk', 'We leave the site clean and walk the finished job with you panel by panel.'],
 ])}
@@ -322,20 +324,21 @@ ${process4([
   <div class="container">
     <div class="section-head"><p class="kicker">FAQs</p><h2>Super Screen Questions</h2></div>
     ${faq([
-      ['Is Super Screen worth the extra cost?', 'If you’ve replaced standard screening more than once, usually yes. The longer lifespan and tear resistance mean fewer repairs, and the shade and no-see-um protection are benefits you feel every day.'],
-      ['How much more shade does it provide?', 'Noticeably more than standard mesh — it softens glare and lowers heat in the enclosure while keeping the view.'],
-      ['Can I mix Super Screen with other screen types?', 'Yes. Many homeowners use Super Screen on roofs and sun-facing walls, with Florida Glass or pet screen where those make more sense.'],
+      ['Is Super Screen worth the extra cost?', 'If you\u2019ve replaced standard screening more than once \u2014 or you have pets \u2014 usually yes. The tear resistance and long manufacturer warranty mean far fewer repairs over the life of the enclosure.'],
+      ['Does Super Screen keep out no-see-ums?', 'Standard Super Screen does not \u2014 its weave is about strength, not insect size. The 20/20 version has a fine weave that does keep out no-see-ums. We\u2019ll help you pick the right one.'],
+      ['What if I want shade or sun protection?', 'That\u2019s Super Solar screen \u2014 a sun-blocking mesh in the same product family that cuts heat and glare. We install it too, often on west-facing walls and roofs.'],
+      ['Can I mix screen types in one enclosure?', 'Absolutely. Many homeowners run HD or Super Screen on high-wear panels, Super Solar on the sunny side, Florida Glass down low for privacy, and standard mesh elsewhere.'],
     ])}
   </div>
 </section>
 
-${ctaBand('Upgrade once. Enjoy it for decades.')}
+${ctaBand('Done replacing torn screens? Upgrade once.')}
 `,
 };
 
 export const doorReplacement = {
   path: '/door-replacement/',
-  title: 'Door Replacement in Spring Hill, FL | American Rescreening',
+  title: 'Door Replacement in Spring Hill, FL | American Rescreen',
   metaDesc: 'Screen door and entry door replacement in Spring Hill, FL. Improve security, energy efficiency, and curb appeal with expert installation. Free quotes — (352) 587-3719.',
   ogImage: 'door-replacement-in-spring-hill.jpg',
   body: `
@@ -384,7 +387,7 @@ ${ctaBand('First impressions start at the door.')}
 
 export const doggyDoor = {
   path: '/doggy-door-installation-in-spring-hill/',
-  title: 'Doggy Door Installation in Spring Hill, FL | American Rescreening',
+  title: 'Doggy Door Installation in Spring Hill, FL | American Rescreen',
   metaDesc: 'Professional doggy door installation in Spring Hill, FL — screen doors, entry doors, and sliders. Give your pet freedom and save your screens. Free quotes — (352) 587-3719.',
   ogImage: 'pexels-heino-schliep-15866678.jpg',
   body: `
@@ -434,4 +437,67 @@ ${ctaBand('Your dog is ready. Are you?')}
 `,
 };
 
-export const all = [rescreening, screenReplacements, screenRepairs, floridaGlass, petScreen, superScreen, doorReplacement, doggyDoor];
+export const poolCagePainting = {
+  path: '/pool-cage-painting/',
+  title: 'Pool Cage Painting in Spring Hill, FL | American Rescreen',
+  metaDesc: 'Pool cage painting in Spring Hill, FL. We repaint aluminum enclosure frames and replace bolts and screws for a like-new cage at a fraction of replacement cost. Call (352) 587-3719.',
+  ogImage: 'img_8157-scaled.jpg',
+  body: `
+${serviceHero('Pool Cage Painting in Spring Hill, FL', 'Chalky, faded, oxidized cage frame? A professional repaint \u2014 with fresh hardware \u2014 makes a decades-old enclosure look brand new for a fraction of the cost of replacing it.', 'img_8157-scaled.jpg')}
+
+<section>
+  <div class="container split">
+    <div>
+      <p class="kicker">Cage Painting</p>
+      <h2>Make an Old Cage Look New Again</h2>
+      <p>Florida sun is hard on painted aluminum. Over the years, cage frames fade, chalk, and oxidize \u2014 and rusted bolts and screws streak the finish. The frame is usually still structurally sound; it just looks tired. That\u2019s where a professional repaint comes in.</p>
+      <ul class="checks">
+        <li><strong>Full frame repaint</strong> \u2014 we clean and prep the aluminum, then apply a durable finish over every beam and upright.</li>
+        <li><strong>New bolts and screws</strong> \u2014 rusted fasteners get replaced, not painted over, so the streaks don\u2019t come back.</li>
+        <li><strong>Pairs perfectly with a rescreen</strong> \u2014 painting and rescreening together is the closest thing to a brand-new enclosure without rebuilding it.</li>
+        <li><strong>A fraction of replacement cost</strong> \u2014 restore the cage you have instead of paying to tear it down and rebuild.</li>
+      </ul>
+      <a class="btn btn-red" href="/contact/">Get a Painting Quote</a>
+    </div>
+    <img src="/assets/images/img_8157-scaled.jpg" alt="Freshly repainted pool cage frame with new screening" loading="lazy">
+  </div>
+</section>
+
+<section class="section-cream">
+  <div class="container">
+    <div class="section-head center"><p class="kicker">Real Results</p><h2>Don\u2019t Take Our Word for It</h2>
+    <p>Here\u2019s what one Spring Hill homeowner said after we restored her 37-year-old cage:</p></div>
+    <div style="max-width:720px;margin:0 auto">
+      <div class="quote-card">
+        <div class="stars" aria-label="5 out of 5 stars">\u2605\u2605\u2605\u2605\u2605</div>
+        <blockquote>\u201cRob and his crew worked on my 37 year old cage. They did a FANTASTIC job repainting, replacing the bolts and screws, new doors and hardware, as well as a full rescreen. Reasonable prices, came promptly every day and responded to all my questions quickly and honestly.\u201d</blockquote>
+        <cite>Carmel Macchia</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+${process4([
+  ['Inspection & Quote', 'We look over your frame, flag any repairs it needs, and quote the repaint \u2014 with or without a rescreen.'],
+  ['Prep & Hardware', 'The frame is cleaned and prepped, and corroded bolts and screws are swapped for new ones.'],
+  ['Painting', 'A durable finish goes on evenly across the entire frame \u2014 no drips on your deck or screens.'],
+  ['Walkthrough', 'We inspect the finished cage with you and back the work with our warranty.'],
+])}
+
+<section>
+  <div class="container">
+    <div class="section-head"><p class="kicker">FAQs</p><h2>Cage Painting Questions</h2></div>
+    ${faq([
+      ['Is painting really worth it vs. replacing the cage?', 'If the frame is structurally sound \u2014 and most are \u2014 absolutely. A repaint with new hardware costs a fraction of a new enclosure and can add many years of life and curb appeal.'],
+      ['Should I rescreen at the same time?', 'It\u2019s the ideal time. The old screens typically come off for a proper frame prep anyway, so doing both at once gets you a like-new cage in one project.'],
+      ['What about rusted screws and bolts?', 'We replace them. Painting over rusted fasteners just delays the streaks \u2014 new hardware is part of doing the job right.'],
+      ['How long does the paint last?', 'With quality prep and paint, many years \u2014 the prep work is what makes the difference, and we don\u2019t skip it.'],
+    ])}
+  </div>
+</section>
+
+${ctaBand('Your cage has good bones. Let\u2019s make it look like it.')}
+`,
+};
+
+export const all = [rescreening, screenReplacements, screenRepairs, floridaGlass, petScreen, superScreen, doorReplacement, doggyDoor, poolCagePainting];

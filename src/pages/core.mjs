@@ -10,22 +10,26 @@ const ICONS = {
   cable: 'M4 4h3v3H4zm13 0h3v3h-3zM5.5 8.5l4.7 4.7a4 4 0 1 0 1.4-1.4L6.9 7.1zm13-1.4l-4.2 4.2 1.4 1.4 4.2-4.2zM14 14a2 2 0 1 1-4 0 2 2 0 0 1 4 0z',
   wrench: 'M21.7 6.6a5.5 5.5 0 0 1-7.2 6.7L8 19.8a2.1 2.1 0 0 1-3-3l6.5-6.5a5.5 5.5 0 0 1 6.7-7.2l-3.2 3.1.8 2.8 2.8.8z',
   screen: 'M3 5h18v12H3zm2 2v8h14V7zm-2 12h18v2H3z',
+  brush: 'M7 16c.6-2.3 2.2-3 4-3l1.5 1.5c0 1.8-.7 3.4-3 4-1.6.4-3.3.5-4.9.3.8-.8 1.9-1.2 2.4-2.8zM20.7 4.7l-1.4-1.4a1 1 0 0 0-1.4 0l-7.3 7.3 2.8 2.8 7.3-7.3a1 1 0 0 0 0-1.4z',
+  sun: 'M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0-5h1v3h-2V2zm0 17h1v3h-2v-3zM2 11h3v2H2zm17 0h3v2h-3zM4.2 5.6l1.4-1.4 2.2 2.1-1.5 1.5zm12.1 12.2 1.5-1.5 2.1 2.2-1.4 1.4zM4.2 18.4l2.1-2.2 1.5 1.5-2.2 2.1zM16.3 6.3l2.2-2.1 1.4 1.4-2.1 2.2z',
 };
 const chip = (name) => `<div class="icon-chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ICONS[name]}"/></svg></div>`;
 
 const SERVICES = [
-  ['pool', 'Pool, Patio & Lanai Rescreening', '/services/rescreening/', 'Full rescreens with premium Phifer screening — clearer views, better airflow, and no more bugs, from pool cages to porches.'],
+  ['pool', 'Pool, Patio & Lanai Rescreening', '/services/rescreening/', 'Full rescreens with premium screening — clearer views, better airflow, and no more bugs, from pool cages to porches.'],
   ['panel', 'Individual Panel Replacement', '/services/screen-repairs/', 'One torn panel doesn’t need a full rescreen. We match and replace individual panels quickly and affordably.'],
   ['privacy', 'Florida Glass Installation', '/florida-glass-installation-in-spring-hill/', 'Laminated privacy screen that blocks prying eyes, wind-blown debris, and water spray — while light still comes through.'],
-  ['shield', 'Super Screen Installation', '/super-screen-installation/', 'Heavy-duty, tear-resistant mesh with a tighter weave for better shade, longer life, and fewer no-see-ums.'],
+  ['shield', 'Super Screen & HD Screen', '/super-screen-installation/', 'Thicker, heavy-duty screening that stands up to pets, storm debris, and years of Florida weather.'],
+  ['sun', 'Solar & No-See-Um Screens', '/services/screen-replacements/', 'Super Solar screen blocks the sun\u2019s heat and glare, and 20/20 fine mesh keeps out even no-see-ums.'],
   ['paw', 'Pet Screens & Doggy Doors', '/pet-screen-installation/', 'Claw-resistant pet screening and pet door installation so your screens and your pets can finally get along.'],
   ['door', 'Door Replacement', '/door-replacement/', 'New screen and entry doors that improve security, curb appeal, and energy efficiency.'],
+  ['brush', 'Pool Cage Painting', '/pool-cage-painting/', 'A full repaint of your cage\u2019s aluminum frame \u2014 with new bolts and screws \u2014 for a like-new look at a fraction of replacement cost.'],
 ];
 
 const TESTIMONIALS = [
-  ['Carisa Fleissner', 'Highly recommend. After trying 2 other companies that didn’t follow through, American Rescreening returned my message promptly and got me on the schedule quickly! Fair price, quality work, fast and courteous service.'],
+  ['Carisa Fleissner', 'Highly recommend. After trying 2 other companies that didn’t follow through, American Rescreen returned my message promptly and got me on the schedule quickly! Fair price, quality work, fast and courteous service.'],
   ['Carmel Macchia', 'Rob and his crew worked on my 37 year old cage. They did a FANTASTIC job repainting, replacing the bolts and screws, new doors and hardware, as well as a full rescreen. Reasonable prices, came promptly every day and responded to all my questions quickly and honestly.'],
-  ['Celeste Hall', 'American Rescreening is an awesome company! Rob gave me a quick and reasonable estimate and Jared came out to rescreen my garage door. I was very happy with the work he did. Would definitely recommend this business to others!!'],
+  ['Celeste Hall', 'American Rescreen is an awesome company! Rob gave me a quick and reasonable estimate and Jared came out to rescreen my garage door. I was very happy with the work he did. Would definitely recommend this business to others!!'],
 ];
 
 export const testimonialCards = () => TESTIMONIALS.map(([name, text]) => `
@@ -49,16 +53,16 @@ const GALLERY = [
 export const home = {
   path: '/',
   file: 'index.html',
-  title: 'Screen Company in Spring Hill, FL | American Rescreening LLC',
+  title: 'Screen Company in Spring Hill, FL | American Rescreen LLC',
   metaDesc: 'Pool rescreening, screen repair, Florida Glass, and screen enclosure services in Spring Hill, FL. Locally owned, licensed & insured, 23+ years of experience. Free estimates — call (352) 587-3719.',
   body: `
 <section class="hero">
   <div class="container">
     <div class="hero-grid">
       <div>
-        <p class="kicker">Spring Hill, Florida</p>
+        <p class="kicker">Spring Hill, FL &amp; Surrounding Counties</p>
         <h1>Screens That <span class="grad">Outlast</span> the Florida Sun</h1>
-        <p class="lede">From full pool cage rescreens to a single torn panel, American Rescreening has kept Spring Hill homes bug-free and beautiful for over 23 years. Licensed, insured, and locally owned.</p>
+        <p class="lede">From full pool cage rescreens to a single torn panel, American Rescreen has kept Spring Hill&ndash;area homes bug-free and beautiful for over 23 years. Licensed, insured, and locally owned.</p>
         <div class="hero-actions">
           <a class="btn btn-red" href="${SITE.phoneHref}">Call ${SITE.phone}</a>
           <a class="btn btn-outline-white" href="/services/rescreening/">Explore Services</a>
@@ -88,7 +92,7 @@ export const home = {
     <div class="section-head center">
       <p class="kicker">Our Services</p>
       <h2>Everything Your Screen Enclosure Needs</h2>
-      <p>Quality screen repair and replacement using premium Phifer materials — backed by a warranty and a crew that shows up when they say they will.</p>
+      <p>Quality screen repair and replacement using premium materials from Phifer and Super Screen — backed by a warranty and a crew that shows up when they say they will.</p>
     </div>
     <div class="grid-3">
       ${SERVICES.map(([ic, t, href, d]) => `
@@ -105,18 +109,18 @@ export const home = {
 <section>
   <div class="container split">
     <div>
-      <p class="kicker">Why Choose American Rescreening</p>
+      <p class="kicker">Why Choose American Rescreen</p>
       <h2>A Local Crew That Treats Your Home Like Their Own</h2>
-      <p>American Rescreening is a locally owned and operated screen company that has served the Spring Hill community for more than two decades. We know what Florida sun, storms, and humidity do to a screen enclosure — and we build ours to last.</p>
+      <p>American Rescreen is a locally owned and operated screen company that has served the Spring Hill community for more than two decades. We know what Florida sun, storms, and humidity do to a screen enclosure — and we build ours to last.</p>
       <ul class="checks">
-        <li><strong>Premium materials only.</strong> We install Phifer screening products because they hold up longest under the Florida sun.</li>
+        <li><strong>Premium materials only.</strong> We install screening from Phifer and Super Screen — including heavy-duty HD mesh — because it holds up longest under the Florida sun.</li>
         <li><strong>Free inspections and honest quotes.</strong> We tell you what actually needs replacing — sometimes that&rsquo;s one panel, not the whole cage.</li>
         <li><strong>Warranty on every job.</strong> Our work is guaranteed, and we stand behind it.</li>
         <li><strong>Fast, courteous service.</strong> Prompt callbacks, on-time arrivals, and a clean job site when we leave.</li>
       </ul>
       <a class="btn btn-navy" href="/about/">More About Us</a>
     </div>
-    <img src="/assets/images/screen-repair-florida.jpg" alt="American Rescreening technician replacing pool enclosure screen panels" loading="lazy">
+    <img src="/assets/images/screen-repair-florida.jpg" alt="American Rescreen technician replacing pool enclosure screen panels" loading="lazy">
   </div>
 </section>
 
@@ -152,8 +156,8 @@ ${ctaBand('Ready to enjoy your outdoor space again?')}
 
 export const about = {
   path: '/about/',
-  title: 'About Us | Screen Company in Spring Hill, FL | American Rescreening',
-  metaDesc: 'American Rescreening is a locally owned, licensed & insured screen company serving Spring Hill, FL for over 23 years. Meet the team behind the area’s trusted pool enclosure and rescreening service.',
+  title: 'About Us | Screen Company in Spring Hill, FL | American Rescreen',
+  metaDesc: 'American Rescreen is a locally owned, licensed & insured screen company serving Spring Hill, FL and the surrounding counties for over 23 years. Meet the team behind the area’s trusted pool enclosure and rescreening service.',
   body: `
 <section class="page-hero" style="background-image:url('/assets/images/pool-screen-in-florida.jpg')">
   <div class="container">
@@ -171,11 +175,11 @@ export const about = {
     <div>
       <p class="kicker">Who We Are</p>
       <h2>Locally Owned. Community Trusted.</h2>
-      <p>American Rescreening LLC is a licensed and insured screen company based right here in Spring Hill. We&rsquo;re not a franchise and we&rsquo;re not a storm-chasing crew from out of town — we&rsquo;re your neighbors, and our reputation lives or dies on the work we leave behind.</p>
+      <p>American Rescreen LLC is a licensed and insured screen company based right here in Spring Hill. We&rsquo;re not a franchise and we&rsquo;re not a storm-chasing crew from out of town — we&rsquo;re your neighbors, and our reputation lives or dies on the work we leave behind.</p>
       <p>With more than two decades in the trade, we&rsquo;ve rescreened everything from brand-new lanais to 37-year-old pool cages. We understand the unique demands Florida weather puts on screen enclosures, and we tailor every job to what your home actually needs — no upselling, no shortcuts.</p>
-      <p>What sets us apart is simple: we use the best materials available, including Phifer screening products, because they last the longest. We want to be your screen company for life, not just for one job.</p>
+      <p>What sets us apart is simple: we use the best materials available — from Phifer and Super Screen, including their heavy-duty HD mesh — because they last the longest. We want to be your screen company for life, not just for one job.</p>
     </div>
-    <img src="/assets/images/american-rescreening-llc.jpg" alt="Completed pool screen enclosure by American Rescreening" loading="lazy">
+    <img src="/assets/images/american-rescreening-llc.jpg" alt="Completed pool screen enclosure by American Rescreen" loading="lazy">
   </div>
 </section>
 
@@ -183,12 +187,12 @@ export const about = {
   <div class="container">
     <div class="section-head center">
       <p class="kicker">Why Homeowners Choose Us</p>
-      <h2>The American Rescreening Difference</h2>
+      <h2>The American Rescreen Difference</h2>
     </div>
     <div class="grid-3">
       <div class="card"><h3>23+ Years of Experience</h3><p>Two decades of Florida rescreening means we&rsquo;ve seen — and fixed — it all. Our estimates are accurate and our work is efficient because we&rsquo;ve done it thousands of times.</p></div>
       <div class="card"><h3>Licensed &amp; Insured</h3><p>Full licensing and insurance protect your home and give you peace of mind on every project, big or small.</p></div>
-      <div class="card"><h3>Premium Materials</h3><p>We install Phifer screening and quality hardware because cheap materials fail fast in the Florida sun. Good materials are cheaper in the long run.</p></div>
+      <div class="card"><h3>Premium Materials</h3><p>We install screening from Phifer and Super Screen — including heavy-duty HD mesh — and quality hardware, because cheap materials fail fast in the Florida sun.</p></div>
       <div class="card"><h3>Honest, Fair Pricing</h3><p>Free inspections, straightforward quotes, and recommendations based on what you need — not what pads the invoice.</p></div>
       <div class="card"><h3>Warranty-Backed Work</h3><p>Every rescreen and repair comes with a warranty. If something isn&rsquo;t right, we come back and make it right.</p></div>
       <div class="card"><h3>Fast &amp; Courteous</h3><p>Prompt callbacks, on-time arrivals, clean job sites. Our reviews say it better than we can.</p></div>
@@ -219,8 +223,8 @@ export const about = {
   <div class="container">
     <div class="section-head center">
       <p class="kicker">Areas We Serve</p>
-      <h2>Proudly Serving Hernando County &amp; Beyond</h2>
-      <p>Based in Spring Hill, we serve homeowners throughout the surrounding area — including Brooksville, Weeki Wachee, Hudson, New Port Richey, and nearby communities. Not sure if you&rsquo;re in our service area? <a href="/contact/">Just ask.</a></p>
+      <h2>Proudly Serving Hernando, Pasco &amp; Citrus Counties</h2>
+      <p>Based in Spring Hill, we work throughout the surrounding counties — Brooksville, Weeki Wachee, Hudson, New Port Richey, Homosassa, and the communities in between. Not sure if you&rsquo;re in our service area? <a href="/contact/">Just ask.</a></p>
     </div>
   </div>
 </section>
@@ -231,12 +235,12 @@ ${ctaBand('Let’s take care of your screen enclosure.')}
 
 export const contact = {
   path: '/contact/',
-  title: 'Contact Us | Free Screen Repair Quotes | American Rescreening',
-  metaDesc: 'Contact American Rescreening in Spring Hill, FL for a free quote on pool rescreening, screen repair, Florida Glass, doors, and more. Call (352) 587-3719 or send us a message.',
+  title: 'Contact Us | Free Screen Repair Quotes | American Rescreen',
+  metaDesc: 'Contact American Rescreen in Spring Hill, FL for a free quote on pool rescreening, screen repair, Florida Glass, doors, and more. Call (352) 587-3719 or send us a message.',
   body: `
 <section class="page-hero">
   <div class="container">
-    <h1>Contact American Rescreening</h1>
+    <h1>Contact American Rescreen</h1>
     <p>Request a free quote or ask us anything about your screen enclosure. We respond within one business day.</p>
   </div>
 </section>
@@ -254,7 +258,7 @@ export const contact = {
         <li><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.25 1z"/></svg><strong>Phone:</strong> <a href="${SITE.phoneHref}">${SITE.phone}</a></li>
         <li><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm8 7L4 6v12h16V6z"/></svg><strong>Email:</strong> <a href="mailto:${SITE.email}">${SITE.email}</a></li>
         <li><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6l3.5 2-.75 1.3L11 13V7h2z"/></svg><strong>Hours:</strong> ${SITE.hours}</li>
-        <li><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6.5a2.5 2.5 0 0 0 0 5z"/></svg><strong>Service Area:</strong> Spring Hill, FL &amp; surrounding communities</li>
+        <li><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6.5a2.5 2.5 0 0 0 0 5z"/></svg><strong>Service Area:</strong> Spring Hill, FL &amp; surrounding counties</li>
       </ul>
       <h3>Connect With Us</h3>
       <div class="socials">

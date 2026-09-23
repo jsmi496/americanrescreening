@@ -1,4 +1,4 @@
-/* American Rescreening — modern Americana (light) */
+/* American Rescreen — modern Americana (light) */
 :root {
   --bg: #faf8f4;
   --card: #ffffff;
@@ -58,6 +58,7 @@ p { margin: 0 0 1em; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 14px; padding-bottom: 14px; }
 .wordmark { text-decoration: none; font-family: var(--display); font-weight: 700; font-size: 1.32rem; letter-spacing: -.01em; color: var(--navy); display: flex; align-items: center; gap: 10px; line-height: 1.1; }
 .wordmark .star { color: var(--gold); font-size: 1.05em; }
+.wordmark .badge { width: 52px; height: 52px; border-radius: 50%; flex: none; }
 .wordmark .rs { color: var(--red); }
 .wordmark small { display: block; font-family: var(--sans); font-weight: 600; font-size: .58rem; letter-spacing: .34em; color: var(--muted); text-transform: uppercase; }
 .site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: nowrap; gap: 2px; align-items: center; }
@@ -235,6 +236,7 @@ section { padding: 72px 0; }
   .site-nav a, .site-nav button { padding: 9px 7px; font-size: .84rem; }
   .wordmark { font-size: 1.12rem; gap: 7px; }
   .wordmark small { display: none; }
+  .wordmark .badge { width: 40px; height: 40px; }
   .header-inner { gap: 12px; }
 }
 @media (max-width: 991px) {
