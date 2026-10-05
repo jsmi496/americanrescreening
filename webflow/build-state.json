@@ -1,0 +1,170 @@
+{
+ "siteId": "6ac3f5389f734d79d8ac737f",
+ "siteShortName": "american-rescreen",
+ "stagingUrl": "https://american-rescreen.webflow.io",
+ "pages": {
+  "home": "6ac3f53a9f734d79d8ac7393",
+  "about": "6ac3f65e7cfe929ead74259c",
+  "contact": "6ac3f65f7cfe929ead7425c0",
+  "blog": "6ac3f65f7cfe929ead7425e4",
+  "rescreening": "6ac3f65f7cfe929ead742608",
+  "screen-replacements": "6ac3f65f610f4d3c3a7d1235",
+  "screen-repairs": "6ac3f6601f12718312e10903",
+  "florida-glass-installation-in-spring-hill": "6ac3f6607b0f4ad2c2b716f5",
+  "pet-screen-installation": "6ac3f661759bc7e25ac9f403",
+  "super-screen-installation": "6ac3f661a1f991a1e07e5d75",
+  "door-replacement": "6ac3f662e5a06634e20e7d6e",
+  "doggy-door-installation-in-spring-hill": "6ac3f662e5a06634e20e7d9c",
+  "pool-cage-painting": "6ac3f6630b5f896beb2c4d77"
+ },
+ "assets": {
+  "logo-badge.png": {
+   "id": "6ac3f6b786a424ccad5584b2",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+  },
+  "pool-screens-in-florida.jpg": {
+   "id": "6ac3f6b789edc0f49d58eba7",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg"
+  },
+  "pool-rescreening-fl.jpg": {
+   "id": "6ac3f6b789edc0f49d58ebbd",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg"
+  },
+  "pool-rescreening-in-fl.jpg": {
+   "id": "6ac3f6b7a1f991a1e07e84a1",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b7a1f991a1e07e84a1_pool-rescreening-in-fl.jpg"
+  },
+  "screen-repair-florida.jpg": {
+   "id": "6ac3f6b886a424ccad5584e5",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad5584e5_screen-repair-florida.jpg"
+  },
+  "screen-replacements.jpg": {
+   "id": "6ac3f6b886a424ccad5584ff",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad5584ff_screen-replacements.jpg"
+  },
+  "pool-screen-panel-repair-in-fl.jpg": {
+   "id": "6ac3f6b886a424ccad558539",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad558539_pool-screen-panel-repair-in-fl.jpg"
+  },
+  "screenpanels.jpg": {
+   "id": "6ac3f6b8627a64ab9447d6da",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b8627a64ab9447d6da_screenpanels.jpg"
+  },
+  "pexels-heino-schliep-15866678.jpg": {
+   "id": "6ac3f74ad39e850bd0789f82",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad39e850bd0789f82_pexels-heino-schliep-15866678.jpg"
+  },
+  "door-replacement-in-spring-hill.jpg": {
+   "id": "6ac3f74a4ad8ec84822ac235",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a4ad8ec84822ac235_door-replacement-in-spring-hill.jpg"
+  },
+  "img_8157-scaled.jpg": {
+   "id": "6ac3f74a0d00ae2c12837f30",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a0d00ae2c12837f30_img_8157-scaled.jpg"
+  },
+  "american-rescreening-llc.jpg": {
+   "id": "6ac3f74ad103957544634058",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad103957544634058_american-rescreening-llc.jpg"
+  },
+  "pool-screen-in-florida.jpg": {
+   "id": "6ac3f74a1f12718312e1271d",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a1f12718312e1271d_pool-screen-in-florida.jpg"
+  },
+  "screen-panel-florida.jpg": {
+   "id": "6ac3f74a9f6dccc44bd82a2e",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a9f6dccc44bd82a2e_screen-panel-florida.jpg"
+  },
+  "screen-panel-in-florida.jpg": {
+   "id": "6ac3f74bf04d6deefec257cf",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74bf04d6deefec257cf_screen-panel-in-florida.jpg"
+  },
+  "screen-repairs-in-fl.jpg": {
+   "id": "6ac3f74b09d744023466b6d0",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74b09d744023466b6d0_screen-repairs-in-fl.jpg"
+  },
+  "screen-panels-in-fl.jpg": {
+   "id": "6ac3f74b09d744023466b6e6",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74b09d744023466b6e6_screen-panels-in-fl.jpg"
+  },
+  "pool-rescreening-fl-1.jpg": {
+   "id": "6ac3f6b789edc0f49d58ebbd",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg"
+  },
+  "20200421_155052-scaled.jpg": {
+   "id": "6ac3f74c09d744023466b711",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c09d744023466b711_20200421_155052-scaled.jpg"
+  },
+  "how-to-extend-the-lifespan-of-your-new-door-in-floridas-climate.webp": {
+   "id": "6ac3f74c09d744023466b727",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c09d744023466b727_how-to-extend-the-lifespan-of-your-new-door-in-floridas-climate.webp"
+  },
+  "whatsapp-image-2024-02-15-at-8.41.44-pm.jpg": {
+   "id": "6ac3f74c4a6d8e9805697c5c",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c4a6d8e9805697c5c_whatsapp-image-2024-02-15-at-8.41.44-pm.jpg"
+  },
+  "lanai-rescreening.jpg": {
+   "id": "6ac3f74c4a6d8e9805697c72",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c4a6d8e9805697c72_lanai-rescreening.jpg"
+  },
+  "whatsapp-image-2024-02-15-at-8.41.53-pm-1.jpg": {
+   "id": "6ac3f74c9f6dccc44bd82b7d",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c9f6dccc44bd82b7d_whatsapp-image-2024-02-15-at-8.41.53-pm-1.jpg"
+  },
+  "whatsapp-image-2024-02-15-at-8.41.45-pm.jpg": {
+   "id": "6ac3f74d7b0f4ad2c2b79086",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74d7b0f4ad2c2b79086_whatsapp-image-2024-02-15-at-8.41.45-pm.jpg"
+  },
+  "navigating-common-issues-of-garage-door-screen-sliders-for-a-smooth-operation.webp": {
+   "id": "6ac3f74da1f991a1e07eb925",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74da1f991a1e07eb925_navigating-common-issues-of-garage-door-screen-sliders-for-a-smooth-operation.webp"
+  },
+  "how-to-clean-lanai-screens-properly.jpg": {
+   "id": "6ac3f74e7b0f4ad2c2b790fa",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e7b0f4ad2c2b790fa_how-to-clean-lanai-screens-properly.jpg"
+  },
+  "no-see-um-screen-vs-regular-screen.jpg": {
+   "id": "6ac3f74e1f12718312e12919",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e1f12718312e12919_no-see-um-screen-vs-regular-screen.jpg"
+  },
+  "whatsapp-image-2023-12-28-at-5.45.37-am.jpg": {
+   "id": "6ac3f74ea5df16ba22b763b7",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ea5df16ba22b763b7_whatsapp-image-2023-12-28-at-5.45.37-am.jpg"
+  },
+  "screenshot_19.jpg": {
+   "id": "6ac3f74e6abaad4d88f3f57e",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e6abaad4d88f3f57e_screenshot_19.jpg"
+  },
+  "5-reasons-why-you-should-install-a-pet-door-at-home.jpg": {
+   "id": "6ac3f74e627a64ab94480e53",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e627a64ab94480e53_5-reasons-why-you-should-install-a-pet-door-at-home.jpg"
+  },
+  "the-average-cost-to-rescreen-a-pool-cage-in-spring-hill-florida-.jpg": {
+   "id": "6ac3f74f0d00ae2c1283817c",
+   "url": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74f0d00ae2c1283817c_the-average-cost-to-rescreen-a-pool-cage-in-spring-hill-florida-.jpg"
+  }
+ },
+ "cms": {
+  "collectionId": "6ac3f7867b0f4ad2c2b7b5a4",
+  "templatePageId": "6ac3f7867b0f4ad2c2b7b674",
+  "items": 29,
+  "fields": {
+   "post-body": "160ffb07777b30eefa2350ee3a70838e",
+   "excerpt": "2204e3b9b8ccc50ca05eaaf0b424337e",
+   "main-image": "ef9e04dd4140003223f42b6ad1674aa1",
+   "published-date": "ac05832472abf6e3d5c5f2fa13d83b16",
+   "category": "88292f71e50662db5d92df678ccda6ed",
+   "name": "9950a36081985032d2275682cef1c3ac"
+  }
+ },
+ "todo": [
+  "rename form from \"Html Form\" to Quote Request; set form notification email in Site Settings (user)",
+  "nav dropdowns + mobile hamburger (needs Designer session or Navbar component) - polish round",
+  "per-post SEO titles on CMS template page (Designer field insertion) - polish round",
+  "301 redirects: paste webflow/redirects.csv list into Site Settings > Publishing > 301 redirects at launch",
+  "launch: CMS site plan + connect american-rescreening.com"
+ ],
+ "fonts": {
+  "Inter": "6ac3fcf887c958be1708f99d",
+  "Space Grotesk": "6ac3fcf8b2eb2136aa504a2a"
+ }
+}

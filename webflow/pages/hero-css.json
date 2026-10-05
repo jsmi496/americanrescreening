@@ -1,0 +1,14 @@
+{
+ "about": ".hero-about { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a1f12718312e1271d_pool-screen-in-florida.jpg'); }",
+ "contact": ".hero-contact { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg'); }",
+ "blogpg": ".hero-blogpg { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg'); }",
+ "rescreening": ".hero-rescreening { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg'); }",
+ "specialty": ".hero-specialty { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad5584ff_screen-replacements.jpg'); }",
+ "panels": ".hero-panels { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a9f6dccc44bd82a2e_screen-panel-florida.jpg'); }",
+ "flglass": ".hero-flglass { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg'); }",
+ "petscreen": ".hero-petscreen { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b8627a64ab9447d6da_screenpanels.jpg'); }",
+ "superscreen": ".hero-superscreen { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg'); }",
+ "doors": ".hero-doors { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a4ad8ec84822ac235_door-replacement-in-spring-hill.jpg'); }",
+ "doggy": ".hero-doggy { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad39e850bd0789f82_pexels-heino-schliep-15866678.jpg'); }",
+ "painting": ".hero-painting { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a0d00ae2c12837f30_img_8157-scaled.jpg'); }"
+}

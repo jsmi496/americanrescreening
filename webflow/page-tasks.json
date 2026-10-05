@@ -1,0 +1,458 @@
+[
+ {
+  "key": "about",
+  "pageId": "6ac3f65e7cfe929ead74259c",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/about.html",
+  "css": ".hero-about { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a1f12718312e1271d_pool-screen-in-florida.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Completed pool screen enclosure by American Rescreen",
+    "asset_id": "6ac3f74ad103957544634058",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad103957544634058_american-rescreening-llc.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f6b789edc0f49d58ebbd",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f6b789edc0f49d58eba7",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f74bf04d6deefec257cf",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74bf04d6deefec257cf_screen-panel-in-florida.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f6b886a424ccad558539",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad558539_pool-screen-panel-repair-in-fl.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f74b09d744023466b6d0",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74b09d744023466b6d0_screen-repairs-in-fl.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f6b8627a64ab9447d6da",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b8627a64ab9447d6da_screenpanels.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f74c09d744023466b711",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c09d744023466b711_20200421_155052-scaled.jpg"
+   },
+   {
+    "alt": "American Rescreen project",
+    "asset_id": "6ac3f74a0d00ae2c12837f30",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a0d00ae2c12837f30_img_8157-scaled.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "contact",
+  "pageId": "6ac3f65f7cfe929ead7425c0",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/contact.html",
+  "css": ".hero-contact { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "blog",
+  "pageId": "6ac3f65f7cfe929ead7425e4",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/blog.html",
+  "css": ".hero-blogpg { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Preparing Your Pool Screen For Weather Changes",
+    "asset_id": "6ac3f74ad103957544634058",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad103957544634058_american-rescreening-llc.jpg"
+   },
+   {
+    "alt": "How Super-Shade Screens Can Reduce Energy Costs in Spring Hill, FL",
+    "asset_id": "6ac3f6b8627a64ab9447d6da",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b8627a64ab9447d6da_screenpanels.jpg"
+   },
+   {
+    "alt": "Signs It\u2019s Time to Replace Your Doors in Spring Hill, FL",
+    "asset_id": "6ac3f74a4ad8ec84822ac235",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a4ad8ec84822ac235_door-replacement-in-spring-hill.jpg"
+   },
+   {
+    "alt": "How to Maintain and Clean Your Florida Glass Panels for Longevity",
+    "asset_id": "6ac3f74c09d744023466b711",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c09d744023466b711_20200421_155052-scaled.jpg"
+   },
+   {
+    "alt": "How to Extend the Lifespan of Your New Door in Florida\u2019s Climate",
+    "asset_id": "6ac3f74c09d744023466b727",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c09d744023466b727_how-to-extend-the-lifespan-of-your-new-door-in-floridas-climate.webp"
+   },
+   {
+    "alt": "How Long Does Florida Glass Last? Durability in Florida\u2019s Climate",
+    "asset_id": "6ac3f74a0d00ae2c12837f30",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a0d00ae2c12837f30_img_8157-scaled.jpg"
+   },
+   {
+    "alt": "The Best Time of Year to Rescreen Your Pool Enclosure in Spring Hill, FL",
+    "asset_id": "6ac3f6b8627a64ab9447d6da",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b8627a64ab9447d6da_screenpanels.jpg"
+   },
+   {
+    "alt": "Do Pool Enclosures Block UV Rays?",
+    "asset_id": "6ac3f74c4a6d8e9805697c5c",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c4a6d8e9805697c5c_whatsapp-image-2024-02-15-at-8.41.44-pm.jpg"
+   },
+   {
+    "alt": "Outdoor Pool Enclosure Maintenance Tips: Keep It Spotless Year-Round",
+    "asset_id": "6ac3f6b789edc0f49d58ebbd",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg"
+   },
+   {
+    "alt": "The Benefits of Professional Lanai Rescreening in Spring Hill, FL",
+    "asset_id": "6ac3f74c4a6d8e9805697c72",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c4a6d8e9805697c72_lanai-rescreening.jpg"
+   },
+   {
+    "alt": "From UV Protection to Privacy: The Multi-Functional Benefits of Super-Shade Screens",
+    "asset_id": "6ac3f6b789edc0f49d58ebbd",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg"
+   },
+   {
+    "alt": "Creative Ways to Enhance Your Rescreened Pool Area",
+    "asset_id": "6ac3f74c9f6dccc44bd82b7d",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c9f6dccc44bd82b7d_whatsapp-image-2024-02-15-at-8.41.53-pm-1.jpg"
+   },
+   {
+    "alt": "Pool Screen Hurricane Preparation Tips",
+    "asset_id": "6ac3f74c4a6d8e9805697c5c",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74c4a6d8e9805697c5c_whatsapp-image-2024-02-15-at-8.41.44-pm.jpg"
+   },
+   {
+    "alt": "The Ultimate Guide to Eradicating Algae from Pool Screens",
+    "asset_id": "6ac3f74d7b0f4ad2c2b79086",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74d7b0f4ad2c2b79086_whatsapp-image-2024-02-15-at-8.41.45-pm.jpg"
+   },
+   {
+    "alt": "Why Are Pools In Florida Covered?",
+    "asset_id": "6ac3f74ad103957544634058",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad103957544634058_american-rescreening-llc.jpg"
+   },
+   {
+    "alt": "Pool Cage Repair vs. Replace: Which Is Better?",
+    "asset_id": "6ac3f6b7a1f991a1e07e84a1",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b7a1f991a1e07e84a1_pool-rescreening-in-fl.jpg"
+   },
+   {
+    "alt": "The Essential Guide to Cleaning Pool Cage Screens",
+    "asset_id": "6ac3f6b886a424ccad5584ff",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad5584ff_screen-replacements.jpg"
+   },
+   {
+    "alt": "5 Ideas to Elevate Your Screen Enclosure",
+    "asset_id": "6ac3f6b886a424ccad5584e5",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad5584e5_screen-repair-florida.jpg"
+   },
+   {
+    "alt": "Navigating Common Issues of Garage Door Screen Sliders for a Smooth Operation",
+    "asset_id": "6ac3f74da1f991a1e07eb925",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74da1f991a1e07eb925_navigating-common-issues-of-garage-door-screen-sliders-for-a-smooth-operation.webp"
+   },
+   {
+    "alt": "How to Clean Lanai Screens Properly",
+    "asset_id": "6ac3f74e7b0f4ad2c2b790fa",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e7b0f4ad2c2b790fa_how-to-clean-lanai-screens-properly.jpg"
+   },
+   {
+    "alt": "No-See-Um Screen vs Regular Screen",
+    "asset_id": "6ac3f74e1f12718312e12919",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e1f12718312e12919_no-see-um-screen-vs-regular-screen.jpg"
+   },
+   {
+    "alt": "5 Benefits of A Shade Screen for Patio Covers",
+    "asset_id": "6ac3f74ea5df16ba22b763b7",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ea5df16ba22b763b7_whatsapp-image-2023-12-28-at-5.45.37-am.jpg"
+   },
+   {
+    "alt": "Do I Need a Permit to Rescreen a Pool Cage?",
+    "asset_id": "6ac3f74e6abaad4d88f3f57e",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e6abaad4d88f3f57e_screenshot_19.jpg"
+   },
+   {
+    "alt": "5 Reasons Why You Should Install A Pet Door at Home",
+    "asset_id": "6ac3f74e627a64ab94480e53",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74e627a64ab94480e53_5-reasons-why-you-should-install-a-pet-door-at-home.jpg"
+   },
+   {
+    "alt": "The Average Cost to Rescreen a Pool Cage in Spring Hill, Florida",
+    "asset_id": "6ac3f74f0d00ae2c1283817c",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74f0d00ae2c1283817c_the-average-cost-to-rescreen-a-pool-cage-in-spring-hill-florida-.jpg"
+   },
+   {
+    "alt": "Why Swimming Pool Screen Enclosures Are a Great Investment For Your Home",
+    "asset_id": "6ac3f6b789edc0f49d58eba7",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg"
+   },
+   {
+    "alt": "A Guide to Pet Screens, Doors, and Guards",
+    "asset_id": "6ac3f74ad39e850bd0789f82",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad39e850bd0789f82_pexels-heino-schliep-15866678.jpg"
+   },
+   {
+    "alt": "When Is It Time To Rescreen A Pool Enclosure?",
+    "asset_id": "6ac3f6b789edc0f49d58eba7",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg"
+   },
+   {
+    "alt": "A Definitive Guide To Pool Rescreening",
+    "asset_id": "6ac3f74ad103957544634058",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad103957544634058_american-rescreening-llc.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "rescreening",
+  "pageId": "6ac3f65f7cfe929ead742608",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/rescreening.html",
+  "css": ".hero-rescreening { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Pool enclosure being rescreened in Spring Hill, FL",
+    "asset_id": "6ac3f6b7a1f991a1e07e84a1",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b7a1f991a1e07e84a1_pool-rescreening-in-fl.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "screen-replacements",
+  "pageId": "6ac3f65f610f4d3c3a7d1235",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/screen-replacements.html",
+  "css": ".hero-specialty { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad5584ff_screen-replacements.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Florida Glass privacy screen installed on a pool enclosure",
+    "asset_id": "6ac3f6b886a424ccad5584ff",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad5584ff_screen-replacements.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "screen-repairs",
+  "pageId": "6ac3f6601f12718312e10903",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/screen-repairs.html",
+  "css": ".hero-panels { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a9f6dccc44bd82a2e_screen-panel-florida.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Technician replacing an individual screen panel",
+    "asset_id": "6ac3f6b886a424ccad558539",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b886a424ccad558539_pool-screen-panel-repair-in-fl.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "florida-glass-installation-in-spring-hill",
+  "pageId": "6ac3f6607b0f4ad2c2b716f5",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/florida-glass-installation-in-spring-hill.html",
+  "css": ".hero-flglass { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Florida Glass privacy panels on a pool enclosure",
+    "asset_id": "6ac3f6b789edc0f49d58eba7",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58eba7_pool-screens-in-florida.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "pet-screen-installation",
+  "pageId": "6ac3f661759bc7e25ac9f403",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/pet-screen-installation.html",
+  "css": ".hero-petscreen { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b8627a64ab9447d6da_screenpanels.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Heavy-duty pet screen installed on a lanai door panel",
+    "asset_id": "6ac3f6b8627a64ab9447d6da",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b8627a64ab9447d6da_screenpanels.jpg"
+   },
+   {
+    "alt": "Dog waiting at the door",
+    "asset_id": "6ac3f74ad39e850bd0789f82",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad39e850bd0789f82_pexels-heino-schliep-15866678.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "super-screen-installation",
+  "pageId": "6ac3f661a1f991a1e07e5d75",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/super-screen-installation.html",
+  "css": ".hero-superscreen { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Pool enclosure upgraded with heavy-duty Super Screen mesh",
+    "asset_id": "6ac3f6b789edc0f49d58ebbd",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b789edc0f49d58ebbd_pool-rescreening-fl.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "door-replacement",
+  "pageId": "6ac3f662e5a06634e20e7d6e",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/door-replacement.html",
+  "css": ".hero-doors { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a4ad8ec84822ac235_door-replacement-in-spring-hill.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "New screen door installed on a Spring Hill home",
+    "asset_id": "6ac3f74a4ad8ec84822ac235",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a4ad8ec84822ac235_door-replacement-in-spring-hill.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "doggy-door-installation-in-spring-hill",
+  "pageId": "6ac3f662e5a06634e20e7d9c",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/doggy-door-installation-in-spring-hill.html",
+  "css": ".hero-doggy { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad39e850bd0789f82_pexels-heino-schliep-15866678.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Dog waiting at the door for a doggy door",
+    "asset_id": "6ac3f74ad39e850bd0789f82",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74ad39e850bd0789f82_pexels-heino-schliep-15866678.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ },
+ {
+  "key": "pool-cage-painting",
+  "pageId": "6ac3f6630b5f896beb2c4d77",
+  "htmlFile": "/Users/jamessmith/American-Rescreening/webflow/pages/pool-cage-painting.html",
+  "css": ".hero-painting { background-image: url('https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a0d00ae2c12837f30_img_8157-scaled.jpg'); }",
+  "images": [
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   },
+   {
+    "alt": "Freshly repainted pool cage frame with new screening",
+    "asset_id": "6ac3f74a0d00ae2c12837f30",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f74a0d00ae2c12837f30_img_8157-scaled.jpg"
+   },
+   {
+    "alt": "American Rescreen logo",
+    "asset_id": "6ac3f6b786a424ccad5584b2",
+    "src": "https://cdn.prod.website-files.com/6ac3f5389f734d79d8ac737f/6ac3f6b786a424ccad5584b2_logo-badge.png"
+   }
+  ]
+ }
+]

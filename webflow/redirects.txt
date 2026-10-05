@@ -1,0 +1,36 @@
+# 301 redirects for american-rescreening.com launch (old path -> new path)
+/services/rescreening -> /rescreening
+/services/screen-replacements -> /screen-replacements
+/services/screen-repairs -> /screen-repairs
+/doggy-door-installation-in-spring-hill -> /doggy-door-installation-in-spring-hill  (unchanged, no redirect needed)
+/hurricane-cable-installation -> /  (service removed)
+/small-home-repairs -> /  (service removed)
+/preparing-your-pool-screen-for-weather-changes -> /blog/preparing-your-pool-screen-for-weather-changes
+/how-installation-of-super-shade-screens-lowers-energy-cost -> /blog/how-installation-of-super-shade-screens-lowers-energy-cost
+/signs-its-time-to-replace-your-doors-in-spring-hill-fl -> /blog/signs-its-time-to-replace-your-doors-in-spring-hill-fl
+/how-to-maintain-and-clean-your-florida-glass-panels-for-longevity -> /blog/how-to-maintain-and-clean-your-florida-glass-panels-for-longevity
+/how-to-extend-the-lifespan-of-your-new-door-in-floridas-climate -> /blog/how-to-extend-the-lifespan-of-your-new-door-in-floridas-climate
+/how-long-does-florida-glass-last-durability-in-floridas-climate -> /blog/how-long-does-florida-glass-last-durability-in-floridas-climate
+/best-time-of-year-to-rescreen-your-pool-enclosure-in-spring-hill-fl -> /blog/best-time-of-year-to-rescreen-your-pool-enclosure-in-spring-hill-fl
+/do-pool-enclosures-block-uv-rays -> /blog/do-pool-enclosures-block-uv-rays
+/outdoor-pool-enclosure-maintenance-tips-keep-it-spotless-year-round -> /blog/outdoor-pool-enclosure-maintenance-tips-keep-it-spotless-year-round
+/the-benefits-of-professional-lanai-rescreening-in-spring-hill-fl -> /blog/the-benefits-of-professional-lanai-rescreening-in-spring-hill-fl
+/from-uv-protection-to-privacy-the-multi-functional-benefits-of-super-shade-screens -> /blog/from-uv-protection-to-privacy-the-multi-functional-benefits-of-super-shade-screens
+/creative-ways-to-enhance-your-rescreened-pool-area -> /blog/creative-ways-to-enhance-your-rescreened-pool-area
+/pool-screen-hurricane-preparation-tips -> /blog/pool-screen-hurricane-preparation-tips
+/the-ultimate-guide-to-eradicating-algae-from-pool-screens -> /blog/the-ultimate-guide-to-eradicating-algae-from-pool-screens
+/why-are-pools-in-florida-covered -> /blog/why-are-pools-in-florida-covered
+/pool-cage-repair-vs-replace-which-is-better -> /blog/pool-cage-repair-vs-replace-which-is-better
+/the-essential-guide-to-cleaning-pool-cage-screens -> /blog/the-essential-guide-to-cleaning-pool-cage-screens
+/5-ideas-to-elevate-your-screen-enclosure -> /blog/5-ideas-to-elevate-your-screen-enclosure
+/navigating-common-issues-of-garage-door-screen-sliders-for-a-smooth-operation -> /blog/navigating-common-issues-of-garage-door-screen-sliders-for-a-smooth-operation
+/how-to-clean-lanai-screens-properly -> /blog/how-to-clean-lanai-screens-properly
+/no-see-um-screen-vs-regular-screen -> /blog/no-see-um-screen-vs-regular-screen
+/5-benefits-of-a-shade-screen-for-patio-covers -> /blog/5-benefits-of-a-shade-screen-for-patio-covers
+/do-i-need-a-permit-to-rescreen-a-pool-cage -> /blog/do-i-need-a-permit-to-rescreen-a-pool-cage
+/5-reasons-why-you-should-install-a-pet-door-at-home -> /blog/5-reasons-why-you-should-install-a-pet-door-at-home
+/the-average-cost-to-rescreen-a-pool-cage-in-spring-hill-florida -> /blog/the-average-cost-to-rescreen-a-pool-cage-in-spring-hill-florida
+/why-swimming-pool-screen-enclosures-are-a-great-investment-for-your-home -> /blog/why-swimming-pool-screen-enclosures-are-a-great-investment-for-your-home
+/pet-screens-in-spring-hill -> /blog/pet-screens-in-spring-hill
+/when-is-it-time-to-rescreen-a-pool-enclosure -> /blog/when-is-it-time-to-rescreen-a-pool-enclosure
+/a-definitive-guide-to-pool-rescreening -> /blog/a-definitive-guide-to-pool-rescreening

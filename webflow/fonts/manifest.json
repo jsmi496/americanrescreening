@@ -1,0 +1,32 @@
+[
+ {
+  "family": "Inter",
+  "weight": 400,
+  "file": "Inter-400.woff2",
+  "hash": "65850a373e258f1c897a2b3d75eb74de"
+ },
+ {
+  "family": "Inter",
+  "weight": 600,
+  "file": "Inter-600.woff2",
+  "hash": "65850a373e258f1c897a2b3d75eb74de"
+ },
+ {
+  "family": "Inter",
+  "weight": 700,
+  "file": "Inter-700.woff2",
+  "hash": "65850a373e258f1c897a2b3d75eb74de"
+ },
+ {
+  "family": "Space Grotesk",
+  "weight": 500,
+  "file": "SpaceGrotesk-500.woff2",
+  "hash": "25ea4a783c12103f175f5b157b7d96aa"
+ },
+ {
+  "family": "Space Grotesk",
+  "weight": 700,
+  "file": "SpaceGrotesk-700.woff2",
+  "hash": "25ea4a783c12103f175f5b157b7d96aa"
+ }
+]
