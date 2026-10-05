@@ -1,0 +1,49 @@
+<style>
+.nav-burger{display:none;cursor:pointer;padding:6px;border:none;background:transparent}
+.nav-burger span{display:block;width:26px;height:2px;background:#23264d;margin:6px 0;border-radius:2px;transition:transform 150ms ease,opacity 150ms ease}
+body.nav-open .nav-burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+body.nav-open .nav-burger span:nth-child(2){opacity:0}
+body.nav-open .nav-burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+.nav-item{position:relative}
+.nav-item>.nav-link{display:inline-block}
+.nav-caret{font-size:9px;opacity:.55;margin-left:4px}
+.nav-sub{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:245px;padding:8px;border-radius:12px;border:1px solid #e7e3da;box-shadow:0 18px 40px rgba(29,32,51,.16);z-index:70}
+.nav-item:hover .nav-sub{display:block}
+.nav-sub .nav-link{display:block;white-space:nowrap;padding:10px 12px}
+.nav-plain{cursor:default}
+@media (max-width:991px){
+.nav-burger{display:block}
+.header-inner{position:relative}
+.site-nav{display:none;position:absolute;top:100%;left:-24px;right:-24px;background:#fff;flex-direction:column;align-items:stretch;padding:12px 24px 18px;border-bottom:1px solid #e7e3da;box-shadow:0 18px 34px rgba(29,32,51,.15);z-index:60}
+body.nav-open .site-nav{display:flex}
+.site-nav .nav-link{padding:12px 10px;font-size:16px;white-space:normal}
+.nav-item{position:static}
+.nav-sub{display:block;position:static;min-width:0;padding:0 0 6px 18px;border:none;box-shadow:none;border-radius:0}
+.nav-sub .nav-link{padding:9px 10px;font-size:15px;color:#5b5e75}
+}
+</style>
+<script>
+(function(){function init(){
+var nav=document.querySelector('.site-nav');var hi=document.querySelector('.header-inner');
+if(!nav||!hi||document.querySelector('.nav-burger'))return;
+function findLink(href){return nav.querySelector('.nav-link[href="'+href+'"]');}
+function subPanel(items){var s=document.createElement('div');s.className='nav-sub';items.forEach(function(it){var a=document.createElement('a');a.className='nav-link';a.href=it[1];a.textContent=it[0];s.appendChild(a);});return s;}
+function caret(el){var c=document.createElement('span');c.className='nav-caret';c.textContent='▾';el.appendChild(c);}
+/* Specialty Screens dropdown */
+var sp=findLink('/screen-replacements');
+if(sp){var w=document.createElement('div');w.className='nav-item';nav.insertBefore(w,sp);w.appendChild(sp);caret(sp);
+w.appendChild(subPanel([["Florida Glass Installation","/florida-glass-installation-in-spring-hill"],["Pet Screen Installation","/pet-screen-installation"],["Super Screen Installation","/super-screen-installation"]]));}
+/* Other Services dropdown replaces Doors + Painting */
+var doors=findLink('/door-replacement');var paint=findLink('/pool-cage-painting');
+if(doors){var w2=document.createElement('div');w2.className='nav-item';nav.insertBefore(w2,doors);
+var top=document.createElement('span');top.className='nav-link nav-plain';top.textContent='Other Services';caret(top);w2.appendChild(top);
+w2.appendChild(subPanel([["Door Replacement","/door-replacement"],["Doggy Door Installation","/doggy-door-installation-in-spring-hill"],["Pool Cage Painting","/pool-cage-painting"]]));
+doors.remove();if(paint)paint.remove();}
+/* burger */
+var b=document.createElement('button');b.className='nav-burger';b.setAttribute('aria-label','Menu');b.setAttribute('aria-expanded','false');
+b.innerHTML='<span></span><span></span><span></span>';hi.appendChild(b);
+b.addEventListener('click',function(){var open=document.body.classList.toggle('nav-open');b.setAttribute('aria-expanded',open?'true':'false');});
+nav.querySelectorAll('a.nav-link').forEach(function(a){a.addEventListener('click',function(){document.body.classList.remove('nav-open');});});
+}
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init);}else{init();}})();
+</script>
