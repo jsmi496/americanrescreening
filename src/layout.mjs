@@ -5,7 +5,7 @@ export const SITE = {
   phone: '(352) 587-3719',
   phoneHref: 'tel:+13525873719',
   email: 'americanrescreen@yahoo.com',
-  hours: 'Mon – Fri: 6:00 AM to 6:00 PM',
+  hours: 'Mon–Fri: 6 AM–6 PM · Sat: 7 AM–4 PM',
   area: 'Spring Hill, FL',
   socials: [
     ['Facebook', 'https://www.facebook.com/AmericanRescreeningLLC/', 'M13.5 9H15V6.5h-1.5c-1.93 0-3.5 1.57-3.5 3.5v1.5H8V14h2v5.5h2.5V14h2l.5-2.5h-2.5V10c0-.55.45-1 1-1z'],
